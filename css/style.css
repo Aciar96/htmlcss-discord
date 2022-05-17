@@ -13,7 +13,8 @@ body{
     font-family: Verdana,  Tahoma, sans-serif;
 }
 button{
-   border-radius:50% ;
+   border-radius:47% ;
+   
    padding: 10px;
    height: 50px;
 }
@@ -63,17 +64,23 @@ li{
     padding-top: 10px;
  }
  .b-jambotron{
-     margin-right: 10px;
+     margin-right: 20px;
+ }
+ img{
+     height: 180px;
+     width: 300px;
+    
  }
 
 
 
 /* header */
 header{
-    height: 400px;
-    background-color: #3161E0;
-    ;
-    margin-bottom: 10px;
+    max-width: 1200px;
+    background-repeat: no-repeat;
+    background-image: url(../img/jumbo.png);
+    background-size: 1200px;
+    margin: 0 auto;
 }
 .d-flex{
     display: flex;
@@ -105,12 +112,13 @@ header{
     justify-content: center;
     align-items: center;
     padding-top: 50px;
+
 }
 
 
 .first-article{
         height: 400px;
-     background-color: chartreuse;
+     background-color:white;
         margin-bottom: 10px;
         
        
@@ -118,13 +126,13 @@ header{
 .colonna-article-first{
     height:300px;
     width: 300px;
-    background-color: aqua;
+    
+    background-size: auto;
 }
 .colonna-article{
     height:300px;
-    width: 200px;
-    background-color: yellow;
-    margin-left: 20px;
+    width: 150px;
+    margin-left: 50px;
 }
 .second-article{
     height: 400px;
