@@ -1,3 +1,165 @@
-h1{
-    color: aqua;
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;  
+}
+  
+body{
+    font-family: Verdana,  Tahoma, sans-serif;
+}
+button{
+   border-radius:50% ;
+   padding: 10px;
+   height: 50px;
+}
+.sub-container{
+    max-width: 1200px;
+    
+}
+
+
+
+
+
+/* utilitis */
+.row{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.colonna{
+    height: 50px;
+    width: 60px;
+    background-color: red;
+}
+.colonna-two{
+    height: 50px;
+    width: 400px;
+    background-color: red;
+   
+}
+li{
+    list-style-type: none;
+    margin-left: 5px;
+}
+ h1 {
+     text-align: center;
+     padding-top: 80px;
+     padding-bottom: 40px;
+ }
+ p{
+     
+     max-width: 700px;
+     margin:  0 auto;
+ }
+ .row-botton{
+    display: flex;
+    justify-content:center;
+    padding-top: 10px;
+ }
+ .b-jambotron{
+     margin-right: 10px;
+ }
+
+
+
+/* header */
+header{
+    height: 400px;
+    background-color: #3161E0;
+    ;
+    margin-bottom: 10px;
+}
+.d-flex{
+    display: flex;
+}
+
+   
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 300px;
+    padding-top: 50px;
+     
+}
+.riga{
+    height: 60px;
+    width: 600px;
+    background-color: black;
+    margin-bottom: 15px;
+    
+}
+
+
+/* main  */
+.row-article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+
+.first-article{
+        height: 400px;
+     background-color: chartreuse;
+        margin-bottom: 10px;
+        
+       
+}
+.colonna-article-first{
+    height:300px;
+    width: 300px;
+    background-color: aqua;
+}
+.colonna-article{
+    height:300px;
+    width: 200px;
+    background-color: yellow;
+    margin-left: 20px;
+}
+.second-article{
+    height: 400px;
+    background-color: violet;
+    margin-bottom: 10px;
+} 
+.row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.reverse-article{
+    height:300px;
+    width: 300px;
+    background-color: gray;
+    margin-left: 20px;
+}
+
+.third-article{
+    height: 400px;
+    background-color: green;
+    margin-bottom: 10px;
+}
+.fourth-article{
+    height:600px;
+    background-color: red;
+    margin-bottom: 10px;
+} 
+.riga-img{
+    height: 300px;
+    background-color: black;
+}
+footer{
+    background-color: #23272A;
+    height: 400px;
 }
