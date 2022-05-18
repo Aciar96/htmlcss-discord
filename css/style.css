@@ -13,7 +13,7 @@ body{
     font-family: Verdana,  Tahoma, sans-serif;
 }
 button{
-   border-radius:47% ;
+   border-radius:50px ;
    
    padding: 10px;
    height: 50px;
@@ -53,10 +53,14 @@ li{
      padding-top: 80px;
      padding-bottom: 40px;
  }
+ h3{
+     color: white;
+ }
  p{
      
      max-width: 700px;
      margin:  0 auto;
+     
  }
  .row-botton{
     display: flex;
@@ -71,16 +75,27 @@ li{
      width: 300px;
     
  }
+ .p-article{
+     text-align: center;
+ }
+ .img-big{
+    height: 410px;
+    width: 660px;
+   
+ }
+ .img-small{
+    height: 25px;
+    width: 30px;
+ }
 
 
 
 /* header */
 header{
-    max-width: 1200px;
-    background-repeat: no-repeat;
+    
     background-image: url(../img/jumbo.png);
-    background-size: 1200px;
-    margin: 0 auto;
+    background-size: cover                                                                                                                                                                                                                                                                                                                                                                       ;
+    
 }
 .d-flex{
     display: flex;
@@ -100,7 +115,7 @@ header{
 .riga{
     height: 60px;
     width: 600px;
-    background-color: black;
+    
     margin-bottom: 15px;
     
 }
@@ -136,7 +151,7 @@ header{
 }
 .second-article{
     height: 400px;
-    background-color: violet;
+    background-color: #F6F6F6;
     margin-bottom: 10px;
 } 
 .row-reverse{
@@ -149,18 +164,18 @@ header{
 .reverse-article{
     height:300px;
     width: 300px;
-    background-color: gray;
+    
     margin-left: 20px;
 }
 
 .third-article{
     height: 400px;
-    background-color: green;
+    background-color: white;
     margin-bottom: 10px;
 }
 .fourth-article{
-    height:600px;
-    background-color: red;
+    min-height:600px;
+    background-color: #f6f6f6;;
     margin-bottom: 10px;
 } 
 .riga-img{
@@ -170,4 +185,18 @@ header{
 footer{
     background-color: #23272A;
     height: 400px;
+    color: white;
+}
+footer .footer-top{
+    display: flex;
+    padding-bottom:30px;
+    border-bottom: 1px solid #8EA1E1;
+}
+.footer-top .motto{
+    flex-basis: 30%;
+}
+
+footer .footer-bottom{
+    display: flex;
+    justify-content: space-between;
 }
